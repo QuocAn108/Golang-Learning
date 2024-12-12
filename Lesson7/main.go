@@ -22,7 +22,6 @@ func main() {
 	switch time.Saturday { // switch statement can have an optional expression after the switch keyword.
 	case today + 0:
 		fmt.Println("Today.")
-
 	case today + 1:
 		fmt.Println("Tomorrow.")
 	case today + 2:
